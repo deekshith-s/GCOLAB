@@ -1,0 +1,309 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+    background: #272727;
+  }
+  
+  .navbar-cont {
+    display: flex;
+    justify-content: space-between;
+    background-color: #272727;
+    flex: 1;
+    align-content: center;
+    align-items: center;
+    padding: 0.5%;
+  }
+  
+  .logo-cont {
+    display: flex;
+    justify-content: start;
+  }
+  
+  .logo {
+    margin: 2.5%;
+    font-family: 'Inter';
+    text-decoration: 0%;
+    font-size: 300%;
+    word-spacing: 2px;
+    color: #fff;
+    padding-left: 80%;
+  }
+
+  .profile-options-bar-cont {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: xx-large;
+    margin-right: 5%;
+    color: #fff;
+  }
+
+
+  
+  .nav-link-cont {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  
+  .nav-link {
+    margin: 16px;
+    font-family: 'Inter';
+    font-size: 112.5%;
+    color: #fff;
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;
+    text-decoration: 0;
+  }
+  
+  a.nav-link:hover {
+    color: #c81212;
+    transition: 40ms ease-in-out;
+  }
+
+  .mainbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:3%;
+  }
+
+  #filters{
+    font-size: large;
+    color: #fff;
+    text-decoration: underline;
+    border: 0;
+    background-color: transparent;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  #srcinp{
+    width: 50%;
+    padding: 1%;
+    border-radius: 30px;
+    font-size: large;
+    color: #fff;
+    background-image: linear-gradient(to right,
+            #c81212,
+            #241515);
+    border: thin;
+    width: calc(50% - 30px);
+    padding-right: 30px;
+  }
+
+  #search-icon {
+    font-size: x-large;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff; 
+    border: 0;
+    background-color: transparent;
+  }
+
+  #showe{
+    display: flex;
+    margin: 1% auto;
+    flex-direction: row;
+  }
+
+  .mbars{
+    color: #fff;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:3% auto;
+  }
+
+  #allpa{
+    text-align:right;
+    width: 40%;
+  }
+
+  #shent{
+    width: 13%;
+    text-align: left;
+    display: flex;
+    margin: auto;
+  }
+
+  .dropdown{
+    position: relative;
+    width: 35%;
+    background-color: #c81212;
+    border-radius: 20px;
+    border: thin;
+    text-align: center;
+    font-size:large;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  #reces{
+    margin-left: 5%;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .train1{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    align-items:center;
+    width: 95%;
+    margin: auto;
+    padding-bottom: 5%;
+  }
+
+  .topbx{
+    display: flex;
+  }
+
+  .boxtx{
+    display:inline-block;
+    width: 28%;
+    height: auto;
+    border: 3px solid;
+    border-color: #fff;
+    border-radius: 40px;
+    padding: 1%;
+  }
+
+  .uppredi{
+    width: 60%;
+    background-color:#c81212;
+    text-align: left;
+    color: #fff;
+    border-radius: 40px;
+    font-family: monospace;
+    padding: 2% 3% 2% 8%;
+    height: auto;
+  }
+
+  #btxo{
+    font-size: xx-large;
+    padding:2% ;
+    margin-left: 16%;
+    color: #fff;
+    background-color: transparent;
+    border: 0;
+  }
+
+  .mheadupr{
+    font-size: x-large;
+    font-weight: 600;
+  }
+
+  .subupr{
+    font-size: large;
+  }
+
+  .basifb{
+    font-size: large;
+    color: #fff;
+    font-family: monospace;
+    padding: 3%;
+  }
+
+  .applybtnr{
+    padding: 2% 10%;
+    background-color: #c81212;
+    color: #fff;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 20px;
+    border:0;
+    margin: 0% 2% 2% 65%;
+  }
+
+  .creator{
+    color: #fff;
+    margin:0;
+    font-family: monospace;
+    font-size: medium;
+    font-weight: 200;
+    padding-left: 5%;
+  }
+
+  .boxfoot{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+  }
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-left: 65%;
+  margin-top: 4%;
+  background-color: #f9f9f9;
+  width:23%;
+  padding:2%;
+  border-radius: 40px;
+  z-index: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#radiofl{
+  display: flex;
+  flex-direction: row;
+  margin: 4% auto;
+  font-size:large;
+  font-weight:300;
+  justify-content:space-evenly;
+}
+
+#fieldSelect,option{
+  border-radius: 20px;
+  font-size: large;
+  padding: 2%;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 3%;
+}
+
+#timegap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.h3dd{
+  margin: 5% 0% 0% 0%;
+}
+
+#apprfil{
+  margin: 5% auto auto auto;
+  padding: 2%;
+  color:#f9f9f9 ;
+  background-color: #c81212;
+  border: 0;
+  border-radius: 20px;
+  display: flex;
+  width: 30%;
+  font-size: large;
+  justify-content: center;
+}
+
+.dropdown-content label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.dropdown-content input[type="date"] {
+  padding: 4%;
+  margin-top: 8px;
+  border-radius: 20px;
+}
+
+.dropdown-content input[type="radio"] {
+  accent-color:#c81212;
+  font-size: xx-large;
+}
+
+#filters:hover #filtersDropdown {
+  display: block;
+}

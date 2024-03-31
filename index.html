@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>GITAM Colab</title>
+</head>
+
+<body>
+  <nav class="navbar-cont">
+    <div class="logo-cont">
+      <a href="index.html" class="logo">GC</a>
+    </div>
+    
+    <div class="search-and-login">
+          <a href="login.html" class="nav-link">Login</a>
+          <a href="signup.html" class="nav-link">SignUp</a>
+          <div class="search-bar-cont">
+              <img id="search-icon" class="search-icon" src="https://static-00.iconduck.com/assets.00/search-icon-2044x2048-psdrpqwp.png"/>
+              <input id="search-bar" class="search-bar" type="text" placeholder="Search here!" style="display: none;">
+          </div> 
+    </div>
+  </nav> 
+  <div class="video-cont">
+      <video class="video" autoplay muted loop id="myVideo">
+          <source src="STG_vSnap (2)~2.mp4" type="video/mp4">
+      </video>
+  </div>
+  <div class="about-etc">
+    <div class="aboutus-matter">
+      <h1 class="about-heading">About Us</h1>
+      <div class="about-container">
+          <p class="about-matter">GITAM Colab seeks to establish an all-encompassing online platform fostering enhanced collaboration among university students. It facilitates dynamic collaboration through project creation, team formation, and real-time tools, encouraging interdisciplinary connections among students with diverse academic backgrounds.</p>
+  
+          <p class="about-matter">The platform empowers students to efficiently manage access to collaborative spaces and enables them to                                     showcase their skills and experiences through individual profiles. Through GITAM Colab's implementation, universities can leverage digital connectivity to transcend physical barriers, creating a thriving online community.</p>
+        <div class="view-more-cont">
+          <a class="view-more-button">View More</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="slider-cont" id="container">
+      
+      <div class="slider-button-cont">
+        <img class="slider-button" id="slider" src="Slider-button.png" onclick="toggleSlider()"/>
+      </div>
+       <div class="what-we-offer-cont">
+        <p class="slider-text">What We Offer</p> 
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

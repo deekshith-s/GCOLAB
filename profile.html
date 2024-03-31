@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="profile-css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>GC Profile</title>
+  </head>
+  <body>
+    <nav class="navbar-cont">
+      <div class="logo-cont">
+        <a href="index.html" class="logo">GC</a>
+      </div>
+
+      <div class="profile-options">
+          <div class="nav-link-cont">
+            <a href="network.html" class="nav-link">NETWORK</a>
+            <a href="post.html" class="nav-link">POST</a>
+            <a href="notifications.html" class="nav-link">NOTIFICATIONS</a>
+            <a href="#" class="nav-link">ALERTS</a>
+            <a class="profile-options-bar-cont" href="profile.html">
+              <i class="bi bi-person-circle"></i></a>
+          </div> 
+      </div>
+    </nav>
+    <h1 class="profile-heading">Profile</h1>
+    
+    
+    <div class="about-page">
+      <div class="form-cont">
+          <p class="about-form-heading">About</p>
+        <div id="about-form-container">
+          <div class="about-input-container">
+            <input type="text" id="input1" class="about-input" data-threshold = "50">
+          </div>
+        </div>
+
+        <p class="about-form-heading">Skills</p>
+        <div id="skill-form-container">
+          <div class="skill-input-container">
+            <input type="text" id="input2" class="about-input" data-threshold = "50">
+            <img class="plus" data-container="skill-form-container" id="addSkill" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAANklEQVR4nGNgGFHgPxSMWoAT/B8NIkLg/8gOov9UBgx0t4AY8J8SzaMWUAX8H42D4R9EgxIAADOHLuA9EPgjAAAAAElFTkSuQmCC"/>
+          </div>
+        </div>
+
+        <p class="about-form-heading">Education</p>
+        <div id="edu-form-container">
+          <div class="edu-input-container">
+            <input type="text" id="input3" class="about-input" data-threshold = "90">
+            <img class="plus" data-container="edu-form-container" id="addEducation"
+src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAANklEQVR4nGNgGFHgPxSMWoAT/B8NIkLg/8gOov9UBgx0t4AY8J8SzaMWUAX8H42D4R9EgxIAADOHLuA9EPgjAAAAAElFTkSuQmCC"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="img-blob-cont">
+        <div class="img-container">
+            <img class="dp" src="download.png"/>
+            <p class="name">John Doe</p>
+            <p class="email">johndoe@xyz.in</p>
+            <p class="roll-no">VU21CSEN01000XY</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="submit-cont">
+      <a href="#" class="submit-button">Save</a>
+    </div>
+    
+    <script src="profile.js"></script>
+  </body>
+</html>

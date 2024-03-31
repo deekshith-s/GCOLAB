@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GC SignUp</title>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="login.css">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+<body>
+  <nav class="navbar-cont">
+    <div class="logo-cont">
+      <a href="index.html" class="logo">GC</a>
+    </div>
+    <div class="search-and-login">
+          <div class="search-bar-cont">
+              <img id="search-icon" class="search-icon" src="https://static-00.iconduck.com/assets.00/search-icon-2044x2048-psdrpqwp.png"/>
+              <input id="search-bar" class="search-bar" type="text" placeholder="Search here!" style="display: none;">
+          </div>  
+        </div>  
+    </div>
+  </nav>
+  <video id="background-video" autoplay loop muted>
+    <source src="recording~2.mp4" type="video/mp4">
+  </video>
+
+  <div class="login-container">
+    <div class="login-cont">
+      <h2 class="login">SignUp</h2>
+      <div class="login-form-cont">
+        <form>
+          <div class="form-row">
+            <div class="label-cont">
+              <label class="label" for="username">Username:</label>
+            </div>
+            <div class="input-cont">
+              <input class="input-field" placeholder="Enter your email" type="text" id="username" name="username" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="label-cont">
+              <label class="label" for="password">Password:</label>
+            </div>
+            <div class="input-cont">
+              <input  class="input-field" placeholder="Enter password" type="password" id="password" name="password" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="label-cont">
+              <label class="label" for="password">Confirm Password:</label>
+            </div>
+            <div class="input-cont">
+              <input  class="input-field" placeholder="Enter confirm password" type="password" id="cpassword" name="password" required>
+            </div>
+          </div>
+          <a onclick="validateemail()" class="submit-button" type="submit">SignUp</a>
+        </form>
+
+        <div class="social-login">
+          <div class="social-icon">
+            <a id="googleLogin" onclick="loginWithGoogle()">
+                <img src="https://cdn-icons-png.flaticon.com/128/2875/2875404.png" height="15px" width="15" alt="Google Icon"> SignUp with Google
+            </a>
+          </div>
+
+          <a id="appleLogin" onclick="loginWithApple()">
+              <img src="icons8-apple-50.png" width="20px" height="20px" alt="Apple Icon"> SignUp with Apple
+          </a>
+        </div>
+      </div>
+  </div>
+  <script>
+    function validateemail() {
+      var email= document.getElementById("username").value;
+      var pass=document.getElementById("password").value;
+      var pass2=document.getElementById("cpassword").value;
+      var passRegex = /^(?=.*[A-Z]).{8,}$/;
+      var emailRegex =  /^[a-zA-Z0-9._%+-]+@(gitam\.edu|gitam\.in)$/;
+      if (!emailRegex.test(email)) {
+          alert("Your Username Must be a Valid Gitam Email ID");}
+      else if(pass==""  || pass2==""){
+          alert("Please enter both your passwords");} 
+      else if(!passRegex.test(pass)){
+            alert("Password must be greater than 8 characters and contain at least one capital letter.");}
+      else if(pass!==pass2){
+          alert("Passwords Do Not Match");}
+      else {
+          window.location.href ="profile.html";}}
+    </script>
+</body>
+</html>

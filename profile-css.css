@@ -1,0 +1,253 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  overflow-x: hidden;
+  background: #272727;
+}
+
+.navbar-cont {
+  display: flex;
+  justify-content: space-between;
+  background-color: #272727;
+  flex: 1;
+  align-content: center;
+  align-items: center;
+  padding: 0.5%;
+}
+
+.logo-cont {
+  display: flex;
+  justify-content: start;
+}
+
+.logo {
+  margin: 2.5%;
+  font-family: 'Inter';
+  text-decoration: 0%;
+  font-size: 300%;
+  word-spacing: 2px;
+  color: #fff;
+  padding-left: 80%;
+}
+
+.nav-link-cont {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 16px;
+  font-family: 'Inter';
+  font-size: 112.5%;
+  color: #fff;
+  padding: 8px 20px 8px 20px;
+  cursor: pointer;
+  text-decoration: 0;
+}
+
+a.nav-link:hover {
+  color: #c81212;
+  transition: 40ms ease-in-out;
+}
+
+.profile-options-bar-cont{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: xx-large;
+  margin-right: 5%;
+  color:#c81212;
+}
+
+
+.profile-options:focus {
+  outline: none;
+}
+
+.profile-icon {
+  width: 48px;
+  height: 48px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.profile-heading {
+  text-align: center;
+  font-family: Inter;
+  padding: 25px 0px 25px 0px;
+  background-color: #e8dfdf;
+  color: #272727;
+  margin: 0%;
+}
+
+.video-cont {
+  background-color: #cb1212;
+  height: 100%;
+  padding-top: 0;
+  margin-top: 0%;
+}
+
+.video {
+  width: 100%;
+  height: 260px;
+}
+
+.about-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-cont {
+  margin-left: 160px;
+  width: 50%;
+  padding-bottom: 25px;
+}
+
+.about-form-heading {
+  font-size: 22px;
+  font-weight: bold;
+  padding: 12px 20px 12px 20px;
+  font-family: Inter;
+  width: fit-content;
+  color: #272727;
+  background-color: #e8dfdf;
+  border-radius: 20px;
+  margin-top: 80px;
+}
+
+.about-input {
+  font-family: Inter;
+  color: #e8dfdf;
+  outline: 0;
+  margin-left: 12px;
+  border-width: 0 0 2px;
+  border-color: #e8dfdf;
+  background: transparent;
+  caret-color: #e8dfdf;
+  width: 70%;
+  word-wrap: break-word;
+  font-size: 18px;
+}
+
+.about-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.dynamic-input {
+  font-size: 18px;
+  font-family: Inter;
+  color: #e8dfdf;
+  outline: 0;
+  margin-top: 20px;
+  margin-left: 12px;
+  border-width: 0 0 2px;
+  border-color: #e8dfdf;
+  background: transparent;
+  caret-color: #e8dfdf;
+  width: 30%;
+  word-wrap: break-word;
+}
+
+.skill-input-container {
+  display: flex;
+  align-items: center;
+
+}
+
+.plus {
+  background-color: #cb1212;
+  border-radius: 50%;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+.edu-input-container {
+  display: flex;
+}
+
+.minus {
+  padding-top: 10px;
+  padding-left: 16px;
+  height: 42px;
+  align-items: center;
+
+}
+
+.img-blob-cont {
+  width: auto;
+  height: fit-content;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  margin-right: 200px;
+}
+
+
+.img-container {
+  justify-content: end;
+  border-radius: 20px;
+  margin-left: -80%;
+  margin-top: 80px;
+  padding: 12px 10px 30px 10px;
+  background-color: #e8dfdf;
+  color: #272727;
+  width: 320px;
+  height: auto;
+  text-align: center;
+}
+
+.dp {
+  object-fit: cover;
+  width: 200px;
+  height: 220px;
+  padding: 20px 20px 8px 20px;
+}
+
+.name {
+  font-family: Inter;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -2px;
+  text-decoration: 2px underline;
+  text-underline-offset: 8px;
+  font-size: 22px;
+}
+
+.email {
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  padding: -12px;
+  margin-top: 18px;
+}
+
+.roll-no {
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  padding: -12px;
+  margin-top: -4px;
+}
+
+.submit-cont {
+  display: flex;
+  justify-content: center;
+
+}
+
+.submit-button {
+  text-align: center;
+  margin: 60px 0 50px 0;
+  background-color: #cb1212;
+  font-family: Inter;
+  color: #e8dfdf;
+  width: fit-content;
+  padding: 14px 30px 14px 30px;
+  border-radius: 35px;
+  text-decoration: 0;
+  font-weight: bold;
+  font-size: 22px;
+}
